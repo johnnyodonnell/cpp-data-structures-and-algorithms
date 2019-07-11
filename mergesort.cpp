@@ -1,6 +1,11 @@
 #include <iostream>
 #include <vector>
 
+/*
+ * This currently uses O(nlog(n)) space, when we could instead use
+ * O(n) space
+ *
+ */
 
 using namespace std;
 
